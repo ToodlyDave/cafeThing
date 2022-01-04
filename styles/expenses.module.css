@@ -1,0 +1,44 @@
+.expenses {
+    min-height: 40vh;
+    max-height: 70vh;
+    width: 77vw;
+    background-color: #E5E5E5;
+}
+
+.expenseItem {
+    height: 5vh;
+}
+
+.expenseHeader {
+    background-color: #003C4F;
+    height: 8vh;
+    color: #DDF7FF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.expenseTable {
+    width: 80vw;
+    background-color: #DDF7FF;
+}
+
+.expenseTable tr{
+    height: 7vh;
+    display: block;
+    align-content: center;
+}
+
+.expenseTable tr:hover {
+    box-shadow: 1px 2px 10px rgb(136, 136, 136);
+}
+
+.expenseTable tr td {
+    text-align: center;
+    height: 6vh;
+    width: 26.6vw;
+}
+
+.expenseTable td:nth-child(1) {
+}
+
